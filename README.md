@@ -13,7 +13,6 @@ Before running the project, make sure you have the following installed on your s
 
 - [Python](https://www.python.org/) (version 3.6 or higher)
 - [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)
-- [uvicorn](https://www.uvicorn.org/)
 
 ## Installation
 
@@ -65,6 +64,7 @@ Once the installation is complete, you can run the FastAPI application using the
 ```
 uvicorn main:app --reload
  ```
+Visit http://127.0.0.1/docs in your browser to access the FastAPI Swagger documentation and test the OCR functionality.
 
 ## Usage
 Follow the API documentation to interact with the OCR endpoint and extract text from images.
